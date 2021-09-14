@@ -1,22 +1,3 @@
-fn word_parity_liniar(number: &u64) -> u8 {
-
-    let mut copy = number.to_owned();
-    let mut cnt = 0;
-
-    while copy != 0 {
-        if (copy & 1) == 1 {
-            cnt += 1;
-            copy >> 1;
-        }
-    }
-
-    if cnt % 2 == 0 {
-        return 1;
-    }
-
-    return 0;
-}
-
 fn word_parity(number: &u64) -> u8 {
 
     let mut copy = number.to_owned();
