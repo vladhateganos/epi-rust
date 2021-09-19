@@ -1,2 +1,3 @@
 pub mod word_parity;
-mod swap_bits;
+pub mod swap_bits;
+pub mod same_weight_numbers;
